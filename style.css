@@ -25,13 +25,13 @@ body{
    
 }
 #yel{
-     background-color: #dbc927;
+    border:none;
+     background-color: #dbc93a;
     font-weight:bolder;
-    font-size: 30px;
+    font-size: 35px;
+  
     text-align:center;
-      box-shadow: none;
-    color:aliceblue;
-
+        box-shadow: 1px 2px 15px 1px  rgb(0 0 0);
 }
 input{
     width: 100%;
@@ -56,15 +56,15 @@ input::placeholder{
    
 }
 button{  width: 100%;
-  font-weight:bolder;
+    border: none;
     width: 60px;
     height: 60px;
     margin: 10px;
     border-radius: 50%;
     background:transparent;
     color: #ffffff;
-    font-size: 25px;
-    box-shadow: 1px 1px 1px 1px  rgb(129 46 46);
+    font-size: 20px;
+    box-shadow: 1px 2px 5px 1px  rgb(198 81 81);
     cursor: pointer;
     margin:15px;
 }
@@ -90,8 +90,25 @@ button{  width: 100%;
     height: 100vh;
     border:none ;
  padding: 40px;
+          
     border-radius: 0px;
           
             
 }
+      button{
+           font-size: 20px;
+      }
+      #yel{
+           font-size: 30px;
+      }
+   }
+  @media screen and (max-width: 350px){
+      
+
+      button{
+           font-size: 15px;
+      }
+      #yel{
+           font-size: 30px;
+      }
    }
