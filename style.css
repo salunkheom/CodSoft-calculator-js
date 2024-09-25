@@ -31,7 +31,7 @@ body{
     font-size: 35px;
   
     text-align:center;
-        
+        box-shadow: none;
 }
 input{
     width: 100%;
