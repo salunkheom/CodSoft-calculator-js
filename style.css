@@ -25,10 +25,13 @@ body{
    
 }
 #yel{
-     background-color: #dfcb2f;
-    font-weight:bold;
-    font-size: 40px;
+     background-color: #dbc927;
+    font-weight:bolder;
+    font-size: 30px;
     text-align:center;
+      box-shadow: none;
+    color:aliceblue;
+
 }
 input{
     width: 100%;
@@ -53,15 +56,15 @@ input::placeholder{
    
 }
 button{  width: 100%;
-    border: none;
+  font-weight:bolder;
     width: 60px;
     height: 60px;
     margin: 10px;
     border-radius: 50%;
     background:transparent;
     color: #ffffff;
-    font-size: 20px;
-    box-shadow: 1px 2px 5px 1px  rgb(255 255 255);
+    font-size: 25px;
+    box-shadow: 1px 1px 1px 1px  rgb(129 46 46);
     cursor: pointer;
     margin:15px;
 }
